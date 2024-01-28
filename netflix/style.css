@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  height: 100vh;
+  width: 100%;
+  background-image: url("netflix\ newbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.homepage .content {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.homepage .content .nav {
+  height: 12vh;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  z-index: 7;
+  justify-content: space-between;
+}
+
+.homepage .content .nav .logo {
+  margin-top: 3vh;
+  width: 15%;
+  height: 59px;
+  margin-left: 23vh;
+  object-fit: cover;
+}
+
+.homepage .content .nav .logo img {
+  height: 95%;
+  width: 60%;
+}
+
+.homepage .content .nav .language_Login {
+  height: 40px;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-right: 11%;
+  font: f658;
+}
+
+.homepage .content .nav .language_Login select {
+  height: 32px;
+  width: 130px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid rgb(49, 45, 45);
+  background: rgb(20, 18, 18);
+  color: white;
+  border-radius: 5px;
+  margin: 3px 0 0 10px;
+}
+
+.homepage .content .nav .language_Login button {
+  background-color: rgb(201, 25, 25);
+  height: 32px;
+  width: 80px;
+  color: white;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: 800;
+  border-radius: 5px;
+  margin: 3px 15px 0 0;
+  border: 0;
+  outline: 0;
+}
+
+.homepage .content h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 13%;
+  font-family: arial;
+}
+
+.homepage .content p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.homepage .content .Email {
+  width: 50%;
+  height: 100px;
+  margin: 10px 0 0 25%;
+  display: flex;
+}
+
+.homepage .content input {
+  width: 369px;
+  height: 56px;
+  border: 2px solid rgb(236, 227, 227);
+  margin: 5px 0 0 15%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.homepage .content button {
+  width: 210px;
+  height: 56px;
+  background-color: red;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  margin: 5px 0 0 10px;
+}
