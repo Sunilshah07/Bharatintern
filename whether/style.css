@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(bg.jpg) ;
+  }
+  .container {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #6e87da;
+    border-radius: 50px;
+  }
+  .container h1{
+    color: rgb(4, 1, 1);
+  }
+  .container img{
+    width: 150px;
+    height: 140px;
+    top: 0;
+  }
+  input, button {
+    margin: 0;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 391px) {
+    .container{
+      width: 80%;
+      height: 100vh;
+      margin-top: 0px;
+      position: absolute;
+    }
+   
+  }
